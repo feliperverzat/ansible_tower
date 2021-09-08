@@ -1,0 +1,6 @@
+- name: My priivate test
+  hosts: all
+  tasks:
+    - name: My private test
+      debug:
+        msg: "Hello Felipe, are you a Icaronauta."
